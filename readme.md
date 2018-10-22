@@ -20,10 +20,11 @@ Note: the distribution of videos in 'MUSIC_solo_videos.json' is slightly differe
 
 If you use the dataset or code from the project, please cite:
 ```bibtex
-    @article{zhao2018sound,
-      title={The Sound of Pixels},
-      author={Zhao, Hang and Gan, Chuang and Rouditchenko, Andrew and Vondrick, Carl and McDermott, Josh and Torralba, Antonio},
-      journal={arXiv preprint arXiv:1804.03160},
-      year={2018}
+    @InProceedings{Zhao_2018_ECCV,
+        author = {Zhao, Hang and Gan, Chuang and Rouditchenko, Andrew and Vondrick, Carl and McDermott, Josh and Torralba, Antonio},
+        title = {The Sound of Pixels},
+        booktitle = {The European Conference on Computer Vision (ECCV)},
+        month = {September},
+        year = {2018}
     }
 ```
