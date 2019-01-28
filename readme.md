@@ -4,7 +4,7 @@ This repo contains the YouTube video IDs for the videos used in Sound of Pixels.
 'MUSIC_solo_videos.json' contains the YouTube video IDs for the solo performances of each instrument listed in the paper.
 'MUSIC_duet_videos.json' contains the YouTube video IDs for the duet performances listed in the paper.
 
-Note: the distribution of videos in 'MUSIC_solo_videos.json' is slightly different than as reported in the paper. In this repository, there are total of 685 videos, with 536 solo videos and 149 duet videos (the paper reports 714 total videos, with 565 solos and 149 duets). The next release of the paper will have these updated numbers and an updated figure. Here is the distribution of the solo videos in the json file. 
+In this repository, there is a total of 685 videos, with 536 solo videos and 149 duet videos. Here is the distribution of the solo videos in the json file. 
 
 [(u'flute', 48),
 (u'acoustic_guitar', 56),
