@@ -1,30 +1,29 @@
 ## MUSIC Dataset from Sound of Pixels
 
-This repo contains the YouTube video IDs for the videos used in Sound of Pixels. Currently, the dataset is at version 1.0, although it will be updated later with more instruments. 
-'MUSIC_solo_videos.json' contains the YouTube video IDs for the solo performances of each instrument listed in the paper.
-'MUSIC_duet_videos.json' contains the YouTube video IDs for the duet performances listed in the paper.
+This repo contains the YouTube video IDs for the videos used in the project Sound of Pixels. http://sound-of-pixels.csail.mit.edu
 
-In this repository, there is a total of 685 videos, with 536 solo videos and 149 duet videos. Here is the distribution of the solo videos in the json file. 
+- 'MUSIC_solo_videos.json' contains the YouTube video IDs for the solo performances of 11 kinds of instrument.
+- 'MUSIC21_solo_videos.json' contains the YouTube video IDs for the solo performances of 21 kinds of instrument.
+- 'MUSIC_duet_videos.json' contains the YouTube video IDs for the duet performances.
 
-[(u'flute', 48),
-(u'acoustic_guitar', 56),
-(u'accordion', 60),
-(u'xylophone', 49),
-(u'erhu', 53),
-(u'tuba', 51),
-(u'saxophone', 25),
-(u'cello', 57),
-(u'violin', 53),
-(u'clarinet', 41),
-(u'trumpet', 43)]
+*The number of videos differ sightly from the papers, as we removed some noisy videos from the dataset afterwards.
 
 If you use the dataset or code from the project, please cite:
 ```bibtex
-    @InProceedings{Zhao_2018_ECCV,
+    @InProceedings{zhao2018sound,
         author = {Zhao, Hang and Gan, Chuang and Rouditchenko, Andrew and Vondrick, Carl and McDermott, Josh and Torralba, Antonio},
         title = {The Sound of Pixels},
         booktitle = {The European Conference on Computer Vision (ECCV)},
         month = {September},
         year = {2018}
+    }
+```
+```bibtex
+    @inproceedings{zhao2019sound,
+      title={The sound of motions},
+      author={Zhao, Hang and Gan, Chuang and Ma, Wei-Chiu and Torralba, Antonio},
+      booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+      pages={1735--1744},
+      year={2019}
     }
 ```
