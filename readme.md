@@ -27,3 +27,5 @@ If you use the dataset or code from the project, please cite:
       year={2019}
     }
 ```
+
+Download script can refer to [the repo](https://github.com/jczhang02/MUSIC_dataset_script).
